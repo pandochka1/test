@@ -1,0 +1,65 @@
+<main>
+        
+        <div class="text">
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum similique earum labore fugit quaerat praesentium, qui maiores ea sequi tempore? Adipisci hic a libero eum mollitia odit excepturi quia quisquam dolorum dolores, obcaecati molestiae ullam cupiditate itaque placeat. Adipisci quas libero tempore, totam, vel ea enim amet repellat rerum quidem distinctio ullam magni suscipit accusamus dignissimos recusandae eos, dolorum veritatis?
+        </div>
+
+        <div class="text_img">
+            <img src="https://vbryanske.com/media/imgs2019/3_39nszbE.jpg" alt="">
+            <img src="https://vbryanske.com/media/imgs2019/3_39nszbE.jpg" alt="">
+        </div>
+       
+        <div class="text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum similique earum labore fugit quaerat praesentium, qui maiores ea sequi tempore? Adipisci hic a libero eum mollitia odit excepturi quia quisquam dolorum dolores, obcaecati molestiae ullam cupiditate itaque placeat. Adipisci quas libero tempore, totam, vel ea enim amet repellat rerum quidem distinctio ullam magni suscipit accusamus dignissimos recusandae eos, dolorum veritatis?
+         </div>
+
+         <div class="text_two">
+            <img src="https://vbryanske.com/media/imgs2019/3_39nszbE.jpg" alt="">
+           
+        </div>
+</main>
+
+
+
+
+css
+
+main{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    justify-content: center;
+    padding-top: 50px;
+    /* background-color: cadetblue; */
+  } 
+  main div {
+    background-color: antiquewhite;
+  }
+
+  .text_img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    /* background-color: aquamarine; */
+  }
+  .text_img img{
+    width: 100%;
+   } 
+  .text_two{
+    width: 30%;
+   }
+
+   .text_two img{
+    width: 100%;
+   }
+
+  .text{
+    width: 60%;
+    font-size: 20pt;
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }  
